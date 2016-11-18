@@ -1,0 +1,23 @@
+{
+  "name": "BasicLogin",
+  "authors": [
+    "petar98 <petaryanakiev.py@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7"
+  }
+}

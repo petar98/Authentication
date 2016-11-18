@@ -1,0 +1,36 @@
+.footer {
+    background-color: #1995dc;
+    height: 7%;
+    color: #ffffff;
+    padding: 1%;
+}
+
+.home {
+    margin-top: 10%;
+    padding: 5%;
+}
+
+.login-link {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+.home p, .home h1 {
+    color: #1995dc;
+}
+.signup-form {
+    margin-top: 10%;
+    width: 60%;
+    padding: 5%;
+}
+.signup-form legend, .signup-form label {
+    color: #1995dc;
+}
+
+.login-form {
+    margin-top: 15%;
+    width: 60%;
+    padding: 5%;
+}
+.login-form legend, .login-form label {
+    color: #1995dc;
+}
