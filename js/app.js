@@ -7,11 +7,12 @@ app.config(function ($routeProvider, $locationProvider) {
         requireBase: false
     });
     $routeProvider.when('/', {
-        templateUrl: "templates/home.html"
-        //controller:"LoginController"
+        templateUrl: "templates/home.html",
+        controller:"LoginController"
     });
     $routeProvider.when('/signup', {
-        templateUrl: "templates/signup.html"
+        templateUrl: "templates/signup.html",
+        controller: "SignupController"
     });
     $routeProvider.when('/login', {
         templateUrl: "templates/login.html"

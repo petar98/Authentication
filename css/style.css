@@ -18,9 +18,10 @@
     color: #1995dc;
 }
 .signup-form {
+    position: relative;
     margin-top: 10%;
     width: 60%;
-    padding: 5%;
+    padding-top: 5%;
 }
 .signup-form legend, .signup-form label {
     color: #1995dc;
@@ -33,4 +34,11 @@
 }
 .login-form legend, .login-form label {
     color: #1995dc;
+}
+.login-link p {
+    position: absolute;
+    margin-top: 2%;
+    font-size: 85%;
+    margin-left: 27%;
+    margin-right: 30%;
 }

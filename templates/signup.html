@@ -1,26 +1,27 @@
 <div class="container jumbotron signup-form">
-    <form class="form-horizontal">
+    <form class="form-horizontal" name="RegForm">
         <fieldset>
             <legend class="text-center">Sign Up</legend>
             <div class="form-group">
                 <label for="inputName" class="col-lg-2 control-label">Name</label>
 
                 <div class="col-lg-10">
-                    <input type="text" class="form-control" id="inputName" placeholder="Name">
+                    <input type="text" class="form-control" id="inputName" placeholder="Name" ng-model="user.name">
                 </div>
             </div>
             <div class="form-group">
                 <label for="inputEmail" class="col-lg-2 control-label">Email</label>
 
                 <div class="col-lg-10">
-                    <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                    <input type="text" class="form-control" id="inputEmail" placeholder="Email" ng-model="user.email">
                 </div>
             </div>
             <div class="form-group">
                 <label for="inputPassword" class="col-lg-2 control-label">Password</label>
 
                 <div class="col-lg-10">
-                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Password"
+                           ng-model="user.password">
                 </div>
             </div>
             <div class="form-group">
@@ -28,12 +29,15 @@
 
                 <div class="col-lg-10">
                     <input type="password" class="form-control" id="inputConfirmPassword"
-                           placeholder="Confirm Password">
+                           placeholder="Confirm Password" ng-model="user.confirm">
                 </div>
             </div>
             <div class="form-group">
                 <div class="text-center">
-                    <button type="submit" class="btn btn-primary">Sign Up</button>
+                    <button type="submit" class="btn btn-primary" ng-click="signup()">Sign Up</button>
+                    <div class="login-link center-block">
+                        <a href="/login"><p>Already have an account? Login now.</p></a>
+                    </div>
                 </div>
             </div>
         </fieldset>
